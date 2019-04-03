@@ -122,6 +122,17 @@
                 return;
             }
 
+            var link = this.addElement({
+                tag: "link",
+                attrs: [
+                    { name: "href", value: href },
+                    { name: "rel", value: "stylesheet" }
+                ]
+            });
+
+            var header = document.querySelector("head");
+
+            header.appendChild(link);
         }
     };
 
