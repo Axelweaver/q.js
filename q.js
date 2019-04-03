@@ -28,7 +28,7 @@
             return element;
         },
         addBootstrapModal: function (idModal, idBody, modalTitle) {
-            var modal = addElement({
+            var modal = this.addElement({
                 tag: "div",
                 attrs: [
                     { name: "class", value: "modal fade" },
