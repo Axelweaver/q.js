@@ -118,7 +118,7 @@
             header.appendChild(scriptCont);
         },
         addLinkSection: function (href) {
-            if (document.querySelector("link[href='" + src + "']")) {
+            if (document.querySelector("link[href='" + href + "']")) {
                 return;
             }
 
