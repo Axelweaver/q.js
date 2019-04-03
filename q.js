@@ -16,7 +16,7 @@
             if (obj.children && obj.children.length > 0) {
                 for (var j = 0; j < obj.children.length; j++) {
                     var childElement =
-                        addElement(obj.children[j]);
+                        this.addElement(obj.children[j]);
                     element.appendChild(childElement);
                 }
             }
